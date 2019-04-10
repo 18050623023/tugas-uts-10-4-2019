@@ -2,7 +2,6 @@
 #include<conio.h>
 #include<stdlib.h>
 #include <time.h>
-using namespace std;
 
 int main(){
 	int da[100],cari,jmlh=0;
