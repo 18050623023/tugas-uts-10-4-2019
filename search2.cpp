@@ -11,12 +11,13 @@ int main(){
 
 	for(int i=0;i<1000;i++){
         if(da[i]==cari){
-            printf("data ada \n");
-            break;
-        }else{
-            printf("Data Tidak ada\n");
-            break;
+            bol=true;
+        break;
         }
-	}
-
+    }
+    if(bol==true){
+        printf("data ada \n");
+    }else{
+        printf("Data Tidak ada\n");
+    }
 }
